@@ -1,0 +1,36 @@
+.reviews {
+  text-align: center;
+}
+
+.reviews__item {
+  margin: 0;
+}
+
+.reviews__author-info {
+  display: none;
+  margin: 0;
+}
+
+.reviews__text {
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0 16px;
+}
+
+.reviews__item:not(:first-child) {
+  display: none;
+}
+
+.reviews__author-name {
+  display: inline-block;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.reviews__toggles {
+  margin: 0;
+}

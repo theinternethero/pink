@@ -1,0 +1,37 @@
+.contacts {
+  text-align: center;
+}
+
+.contacts__slogan, .contacts__intro {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 300;
+}
+
+.contacts__intro {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.contacts__list {
+  @include list-style;
+}
+
+.conctacts__item {
+  margin-bottom: 25px;
+}
+
+.conctacts__title {
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 700;
+  margin: 0;
+}
+
+.contacts__description {
+  font-size: 24px;
+  line-height: normal;
+  color: #d22856;
+  padding: 0px 5px;
+  margin: 0;
+}

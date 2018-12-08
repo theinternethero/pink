@@ -1,0 +1,26 @@
+.slider__toggles label {
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 12px;
+  height: 12px;
+  background: url(../../img/radio-off.svg) 0 0 no-repeat;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slider__prev {
+  display: none;
+}
+
+.slider__next {
+  display: none;
+}
+
+.slider__toggles label:hover, .slider__toggles label:focus, .slider__toggles label:active {
+  background: url(../../img/radio-on.svg) 0 0 no-repeat;
+}
+
+.slider__toggle:checked+label {
+  background: url(../../img/radio-on.svg) 0 0 no-repeat;
+}

@@ -1,0 +1,24 @@
+.devices {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #{$leonardo};
+}
+
+.devices__list {
+  @include list-style;
+  @include flex(space-between, flex-end);
+  align-content: flex-end;
+  flex-wrap: wrap;
+  width: 205px;
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+
+.devices__availability {
+  display: block;
+  width: 230px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}

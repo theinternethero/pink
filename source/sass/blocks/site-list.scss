@@ -1,0 +1,29 @@
+.site-list {
+  display: none;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  @include list-style;
+  text-transform: uppercase;
+}
+
+.site-list__link {
+  display: block;
+  width: 320px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  margin-bottom: 1px;
+  box-shadow: 0 1px 0 #000000, inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  background-color: #{$leonardo};
+  &:hover, &:focus {
+    color: #d22856;
+  }
+  &:active {
+    color: rgba(210, 40, 86, 0.3);
+  }
+}

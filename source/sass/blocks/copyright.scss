@@ -1,0 +1,21 @@
+.copyright__text {
+  line-height: 18px;
+  font-weight: 400;
+  margin-right: 12px;
+}
+
+.copyright__link {
+  display: inline-block;
+  vertical-align: middle;
+  &  path {
+  fill: #d22856;
+  }
+}
+
+.copyright__link--html-academy:hover path, .copyright__link--html-academy:focus path {
+  fill: #283645;
+}
+
+.copyright__link--html-academy:active path {
+  opacity: 0.3;
+}

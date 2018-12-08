@@ -1,1 +1,43 @@
-body { background: blue; }
+@import "variables.scss";
+@import "mixin.scss";
+
+body {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #{$leonardo};
+}
+
+@import "./blocks/link.scss";
+@import "./blocks/visually-hidden.scss";
+@import "./blocks/page-header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/site-list.scss";
+@import "./blocks/intro.scss";
+@import "./blocks/button.scss";
+@import "./blocks/devices.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/news.scss";
+@import "./blocks/reviews.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/tariffs.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/map.scss";
+@import "./blocks/page-footer.scss";
+@import "./blocks/social.scss";
+@import "./blocks/copyright.scss";
+@import "./blocks/request.scss";
+
+// body {
+//     background: #{$pink};
+//     &::after {
+//         @include pseudo;
+//         width:10px;
+//         height:10px;
+//         background-color: yellow;
+//     }
+// }

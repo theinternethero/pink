@@ -1,0 +1,44 @@
+.button {
+  font: inherit;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  padding: 15px 30px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button--download {
+  line-height: 18px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  &:hover, &:focus {
+    color: #{$purple};
+    background-color: #fff;
+  }
+  &:active {
+    color: rgba(210, 40, 86, 0.3);
+  }
+  &:disabled {
+    background-color: #e5e5e5;
+  }
+}
+
+.button--submit {
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 17px 58px 16px 56px;
+  background-color: #2aab6d;
+  border-radius: 3px;
+  &:hover, &:focus {
+    background-color: #1c9b5e;
+  }
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

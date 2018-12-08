@@ -1,0 +1,33 @@
+@mixin pseudo {
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+@mixin list-style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin button-default {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@mixin set-font($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin flex($justify-content, $align-items) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

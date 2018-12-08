@@ -1,0 +1,25 @@
+.tariffs__name {
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.tariffs__price {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.tariffs__item {
+  background-color: #{$leonardo};
+}
+
+.services__item {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.tariffs__toggles {
+  text-align: center;
+}
