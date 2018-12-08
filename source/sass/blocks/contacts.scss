@@ -14,7 +14,7 @@
 }
 
 .contacts__list {
-  @include list-style;
+  @include reset-list;
 }
 
 .conctacts__item {

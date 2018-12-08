@@ -25,7 +25,7 @@
 }
 
 .advantages__list {
-  @include list-style;
+  @include reset-list;
 }
 
 .advantages__wrapper {

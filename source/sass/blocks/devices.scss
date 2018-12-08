@@ -5,7 +5,7 @@
 }
 
 .devices__list {
-  @include list-style;
+  @include reset-list;
   @include flex(space-between, flex-end);
   align-content: flex-end;
   flex-wrap: wrap;
@@ -21,4 +21,10 @@
   color: #fff;
   text-align: center;
   margin: 0 auto;
+}
+
+@media (min-width: #{$tablet-width}) {
+  .devices {
+    background-color: transparent;
+  }
 }

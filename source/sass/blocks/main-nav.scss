@@ -1,9 +1,10 @@
-.main-nav {
-  margin: 20px;
-  margin-left: auto;
-}
-
 .main-nav__switch {
   @include button-default;
   outline: none;
+}
+
+@media (min-width: #{$dekstop-width}) {
+  .main-nav__switch {
+    display: none;
+  }
 }

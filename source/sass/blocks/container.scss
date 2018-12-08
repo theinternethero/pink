@@ -1,0 +1,22 @@
+// От 320px мобильная версия
+.container {
+  width: 280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+// От 660px планшетная версия
+@media (min-width: #{$tablet-width}) {
+	.container {
+		width: 620px; // либо auto, если макет резиновый
+		padding: 0 20px;
+	}
+}
+
+// От 1200px декстопная версия
+@media (min-width: #{$dekstop-width}) {
+	.container {
+		width: 960px;
+		padding: 0 120px;
+	}
+}

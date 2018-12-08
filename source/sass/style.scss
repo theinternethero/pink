@@ -1,18 +1,7 @@
 @import "variables.scss";
 @import "mixin.scss";
-
-body {
-  width: 320px;
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #{$leonardo};
-}
-
-@import "./blocks/link.scss";
+@import "scaffolding.scss";
+@import "./blocks/container.scss";
 @import "./blocks/visually-hidden.scss";
 @import "./blocks/page-header.scss";
 @import "./blocks/main-nav.scss";
@@ -31,13 +20,3 @@ body {
 @import "./blocks/social.scss";
 @import "./blocks/copyright.scss";
 @import "./blocks/request.scss";
-
-// body {
-//     background: #{$pink};
-//     &::after {
-//         @include pseudo;
-//         width:10px;
-//         height:10px;
-//         background-color: yellow;
-//     }
-// }

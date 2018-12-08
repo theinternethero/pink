@@ -1,5 +1,5 @@
 .intro {
-  text-align:center;
+  text-align: center;
   margin-bottom: 40px;
   background-color: #{$leonardo};
 }
@@ -9,8 +9,9 @@
 }
 
 .intro__slogan {
-  font-size: 24px;
-  line-height: normal;
+  @include set-font(40px, normal);
+  // font-size: 40px;
+  // line-height: normal;
   font-weight: 300;
   color: #fff;
 }
@@ -21,4 +22,28 @@
 
 .intro__link {
   margin-bottom: 32px;
+}
+
+@media (min-width: #{$tablet-width}) {
+  .intro {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin-bottom: 0px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: transparent;
+  }
+  .intro__slogan--top {
+    display: block;
+    width: 186px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: #{$dekstop-width}) {
+  .intro__slogan--top {
+    width: 230px;
+    font-size: 50px;
+  }
 }

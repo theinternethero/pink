@@ -3,12 +3,8 @@
 }
 
 .social__list {
-  @include list-style;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include reset-list;
+  @include flex(space-between, center);
   align-content: center;
   flex-wrap: wrap;
   margin: 0 auto;

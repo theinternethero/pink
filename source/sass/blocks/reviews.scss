@@ -25,8 +25,7 @@
 .reviews__author-name {
   display: inline-block;
   font-style: normal;
-  font-size: 18px;
-  line-height: 30px;
+  @include set-font(18px, 30px);
   font-weight: 700;
   margin-bottom: 15px;
 }
