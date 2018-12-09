@@ -42,3 +42,9 @@
     color: rgba(255, 255, 255, 0.3);
   }
 }
+
+@media (min-width: #{$dekstop-width}) {
+  .button--download {
+    font-size: 21px;
+  }
+}

@@ -1,7 +1,7 @@
 .devices {
   text-align: center;
   padding-bottom: 30px;
-  background-color: #{$leonardo};
+  background-color: #1d2631;
 }
 
 .devices__list {
@@ -26,5 +26,9 @@
 @media (min-width: #{$tablet-width}) {
   .devices {
     background-color: transparent;
+  }
+  .devices__availability {
+    font-size: 18px;
+    width: 295px;
   }
 }

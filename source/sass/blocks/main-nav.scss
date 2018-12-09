@@ -1,7 +1,14 @@
 .main-nav__switch {
   @include button-default;
   outline: none;
+  &:focus path, &:hover path {
+    fill: #{$pink};
+  }
+  &:active path {
+    fill: rgba(210, 40, 86, 0.3);
+  }
 }
+
 
 @media (min-width: #{$dekstop-width}) {
   .main-nav__switch {

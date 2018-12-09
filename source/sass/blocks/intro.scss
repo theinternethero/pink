@@ -1,7 +1,10 @@
 .intro {
+  position: relative;
   text-align: center;
+  margin-top: 396px;
   margin-bottom: 40px;
-  background-color: #{$leonardo};
+  background-color: #1d2631;
+  z-index: 2;
 }
 
 .intro__devices {
@@ -10,8 +13,6 @@
 
 .intro__slogan {
   @include set-font(40px, normal);
-  // font-size: 40px;
-  // line-height: normal;
   font-weight: 300;
   color: #fff;
 }
@@ -26,12 +27,14 @@
 
 @media (min-width: #{$tablet-width}) {
   .intro {
-    position: absolute;
-    top: 50%;
-    left: 25%;
+    // position: absolute;
+    // top: 50%;
+    // left: 25%;
+    margin-top: 100px;
+    margin-right: 320px;
     margin-bottom: 0px;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    // transform: translate(-50%, -50%);
+    // z-index: 2;
     background-color: transparent;
   }
   .intro__slogan--top {
@@ -42,6 +45,10 @@
 }
 
 @media (min-width: #{$dekstop-width}) {
+  .intro {
+    margin-top: 120px;
+    margin-right: 660px;
+  }
   .intro__slogan--top {
     width: 230px;
     font-size: 50px;
