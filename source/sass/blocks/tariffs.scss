@@ -1,3 +1,7 @@
+.tariffs__list {
+  margin: 0 auto;
+}
+
 .tariffs__name {
   @include set-font(18px, 30px);
   color: #fff;

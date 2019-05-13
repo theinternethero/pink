@@ -11,10 +11,35 @@
   margin-bottom: 40px;
 }
 
+.page-footer__logo-image {
+  width: 147px;
+  height: 40px;
+}
+
 .page-footer__wrapper {
   text-align: center;
 }
 
 .page-footer__social {
   margin-bottom: 40px;
+}
+
+@media (min-width: #{$tablet-width}) {
+  .page-footer--none {
+    display: block;
+  }
+  .page-footer__wrapper {
+    width: 620px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .page-footer__logo {
+    width: 147px;
+    height: 40px;
+  }
 }
